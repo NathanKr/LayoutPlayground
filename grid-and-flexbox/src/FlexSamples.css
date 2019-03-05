@@ -15,13 +15,15 @@
   flex: 1;
 }
 
-.input {
-  flex: 1;
-  padding: 5px;
-}
+
 
 .container2 > div:hover {
   cursor: pointer;
+}
+
+.container2 > input {
+  flex: 1;
+  padding: 5px;
 }
 
 .container1 > div {
@@ -36,12 +38,10 @@
   padding: 5px;
 }
 
-.container2 > div {
+.container2 > button {
   background-color: blue;
   color: white;
-  margin-left: 5px;
-  padding: 3px;
-  border: 1px solid black;
+  margin: 0;
 }
 
 .container3 {

@@ -8,8 +8,8 @@ const FlexSample3 = () => {
         button - looked odd{" "}
       </h2>
       <div className="container2">
-        <input className="input" placeholder="Write your message ...    " />
-        <div>submit</div>
+        <input placeholder="Write your message ...    " />
+        <button>submit</button>
       </div>
     </div>
   );
