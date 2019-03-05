@@ -1,3 +1,6 @@
+.app-flex {
+  margin: 10px;
+}
 .container1 {
   display: flex;
 }
@@ -14,11 +17,11 @@
 
 .input {
   flex: 1;
-  padding:5px;
+  padding: 5px;
 }
 
-.container2 > div:hover{
-cursor: pointer;
+.container2 > div:hover {
+  cursor: pointer;
 }
 
 .container1 > div {
@@ -34,9 +37,29 @@ cursor: pointer;
 }
 
 .container2 > div {
-    background-color:blue;
-    color:white;
-    margin-left: 5px;
-    padding: 3px;
-    border: 1px solid black
+  background-color: blue;
+  color: white;
+  margin-left: 5px;
+  padding: 3px;
+  border: 1px solid black;
+}
+
+.container3 {
+  display: flex;
+  width: 100%;
+  height: 200px;
+  border: 1px solid blue;
+  flex-direction: column;
+}
+
+.box1-colored {
+  background-color: aqua;
+  flex-grow: 1;
+}
+.box2-colored {
+  background-color: aquamarine;
+}
+
+.container3 > div {
+  margin: 2px;
 }

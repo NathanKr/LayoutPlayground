@@ -4,7 +4,7 @@ const FlexSample2 = () => {
   return (
     <div>
       <h2>
-        divs are side by side , occupy all their continer width using
+      FlexSample2 : divs are side by side , occupy all their continer width using
         display:flex on their container
       </h2>
 
