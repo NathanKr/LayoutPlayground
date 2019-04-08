@@ -4,6 +4,7 @@ import FlexSample1 from "./FlexSample1";
 import FlexSample2 from "./FlexSample2";
 import FlexSample3 from './FlexSample3'
 import FlexSample4 from './FlexSample4'
+import FlexSample5 from './FlexSample5'
 
 
 const FlexSamples = () => {
@@ -13,7 +14,7 @@ const FlexSamples = () => {
       <FlexSample2 />
       <FlexSample3 />
       <FlexSample4 />
-      
+      <FlexSample5 />
     </div>
   );
 };
