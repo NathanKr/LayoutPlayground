@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import './App.css'
-import GridSamples from "./GridSamples";
-import FlexSamples from './FlexSamples'
+import GridSamples from "./components/GridSamples";
+import FlexSamples from './components/FlexSamples'
 
 class App extends Component {
-  state = { isGrid: false };
+  state = { isGrid: true };
 
   render() {
     return (
