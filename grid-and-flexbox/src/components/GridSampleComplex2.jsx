@@ -1,9 +1,11 @@
 import React from "react";
 import styles from "../styles/GridSampleComplex2.module.css";
-import Blue from './Blue'
+import Blue from "./Blue";
+import useState from "react";
 
 const GridSampleComplex2 = () => {
-  return (
+  
+    return (
     <>
       <h2>
         complex grid using : <Blue>grid-template-columns</Blue>: repeat(4,1fr);{" "}
@@ -36,7 +38,7 @@ const GridSampleComplex2 = () => {
           </p>
         </div>
         <div
-          style={{ backgroundColor: "grey", color: "white" }}
+          style={{backgroundColor: "grey", color: "white" }}
           className={styles.grid_item}
         >
           <h4>an overall wonderfull</h4>
