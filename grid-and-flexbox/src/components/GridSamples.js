@@ -5,12 +5,14 @@ import GridSampleNesting from './GridSampleNesting'
 import GridSample3 from "./GridSample3";
 import "../styles/GridSamples.css";
 import GridSampleComplex1 from "./GridSampleComplex1";
+import GridSampleComplex2 from "./GridSampleComplex2";
 
 
 
 const GridSamples = () => {
   return (
     <div>
+      <GridSampleComplex2/>
       <GridSampleComplex1/>
       <GridSample1 />
       <GridSample2 />

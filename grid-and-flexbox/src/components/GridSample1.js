@@ -1,10 +1,14 @@
 import React from "react";
+import Blue from "./Blue";
 
 const GridSample1 = () => {
   return (
     <div>
-      <h2>50% 30% 20% grid</h2>
-      <div class="wrapper1">
+      <h2>
+        <Blue>grid-template-columns</Blue> : 50% 30% 20%;{" "}
+        <Blue>grid-column-gap</Blue>: 10px; <Blue>grid-row-gap</Blue>: 3px;
+      </h2>
+      <div className="wrapper1">
         <div>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore
           incidunt reiciendis impedit voluptate! Eveniet praesentium quo tenetur

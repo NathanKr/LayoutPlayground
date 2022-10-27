@@ -1,10 +1,18 @@
 import React from "react";
+import Blue from './Blue'
 
 const GridSampleNesting = () => {
   return (
     <div>
-      <h2>nested grid , external is 1fr 2fr 1fr , internal is 1fr 1fr 1fr;</h2>
-      <div class="wrapper2">
+      <h2>nested grid</h2>
+      <h3>
+        external is using <Blue>grid-template-columns</Blue> : 1fr 2fr 1fr
+      </h3>{" "}
+      <h3>
+        {" "}
+        internal is using <Blue>grid-template-columns</Blue>1fr 1fr 1fr
+      </h3>
+      <div className="wrapper2">
         <div className="nested">
           <div>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit.

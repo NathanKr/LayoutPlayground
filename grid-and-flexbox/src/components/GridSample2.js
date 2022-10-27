@@ -1,11 +1,14 @@
 import React from "react";
+import Blue from './Blue'
 
 const GridSample2 = () => {
   return (
     <div>
       <h2>
-        1fr 2fr 1fr grid, row is minmax(100px,auto) i.e. min is 100px max is
-        auto
+        <Blue>grid-template-columns</Blue>: 1fr 2fr 1fr;
+        <Blue>grid-column-gap</Blue>: 10px;
+        <Blue>grid-row-gap</Blue>: 3px;
+        <Blue>grid-auto-rows</Blue>: minmax(100px, auto);
       </h2>
       <div className="wrapper2">
         <div>
