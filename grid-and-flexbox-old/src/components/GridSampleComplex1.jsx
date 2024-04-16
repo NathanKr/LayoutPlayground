@@ -5,7 +5,7 @@ import Blue from './Blue'
 const GridSampleComplex1 = () => {
   return (
     <>
-      <h2>GridSampleComplex1 : Complex grid using <Blue>grid-template-areas</Blue> and <Blue>grid-area</Blue></h2>
+      <h2>Complex grid using <Blue>grid-template-areas</Blue> and <Blue>grid-area</Blue></h2>
       <div className={styles.grid_container}>
         <div className={styles.item1}>Header</div>
         <div className={styles.item2}>Menu</div>

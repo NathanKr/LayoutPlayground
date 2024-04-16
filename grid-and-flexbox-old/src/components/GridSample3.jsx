@@ -4,8 +4,6 @@ import Blue from "./Blue";
 const GridSample3 = () => {
   return (
     <>
-      <h2>GridSample3</h2>
-
       <h2>
         justify grid <Blue>grid-template-columns</Blue> 1fr 2fr ,{" "}
         <Blue>justify-items</Blue>: center
